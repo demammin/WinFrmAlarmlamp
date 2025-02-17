@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--参数预警界限值设备-->
+<AlarmSetList>
+	<AlarmInfo>
+		<!--频率-->
+		<ParaType>Fre</ParaType>
+		<!--低值报警-->
+		<AlarmType>1</AlarmType>
+		<!--低值临界值  <最低值就发出低值报警-->
+		<AlarmValue>50</AlarmValue>
+	</AlarmInfo>
+	<AlarmInfo>
+		<!--频率-->
+		<ParaType>Fre</ParaType>
+		<!--高值报警-->
+		<AlarmType>2</AlarmType>
+		<!--高值临界值  >最高值就发出高值报警-->
+		<AlarmValue>200</AlarmValue>
+	</AlarmInfo>
+
+	<AlarmInfo>
+		<!--功率-->
+		<ParaType>Power</ParaType>
+		<!--低值报警-->
+		<AlarmType>1</AlarmType>
+		<!--低值临界值  <最低值就发出低值报警-->
+		<AlarmValue>30</AlarmValue>
+	</AlarmInfo>
+	<AlarmInfo>
+		<!--功率-->
+		<ParaType>Power</ParaType>
+		<!--高值报警-->
+		<AlarmType>2</AlarmType>
+		<!--高值临界值  >最高值就发出高值报警-->
+		<AlarmValue>160</AlarmValue>
+	</AlarmInfo>
+
+
+</AlarmSetList>

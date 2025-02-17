@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--从站信息-->
+<Slaves>
+	<SlaveInfo>
+		<SlaveId>1</SlaveId>
+		<FunctionCode>1</FunctionCode>
+		<StartAddress>0</StartAddress>
+		<Count>4</Count>
+	</SlaveInfo>
+	<SlaveInfo>
+		<SlaveId>2</SlaveId>
+		<FunctionCode>3</FunctionCode>
+		<StartAddress>0</StartAddress>
+		<Count>6</Count>
+	</SlaveInfo>
+</Slaves>
